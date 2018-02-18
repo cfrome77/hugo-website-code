@@ -1,0 +1,36 @@
+baseurl = "http://chrisfrome.com/"
+title = "Chris Frome - Website"
+theme = "nix"
+languageCode = "en-us"
+disqusShortname = "chrisfrome"
+
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
+  [[menu.header]]
+    name = "projects"
+    weight = 1
+    url = "/projects"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params]
+  GithubID = "cfrome77"
+  TwitterID = "cfrome77"
+  LinkedInID = "cfrome77"
+  FacebookID = "cfrome77"
+  Name = "Chris Frome"
+  HeaderUsername = "Chris"
+  HeaderHostname = "chrisfrome.com"
+  Email = "chris@chrisfrome.com"
+  About = "Hi I am Chris Frome. I am a software engineer from the DC metropolitan area. In my free time, I enjoy cooking, rock climbing, and camping/the outdoors."
+  ProfilePicture = "/profile.jpg"
+

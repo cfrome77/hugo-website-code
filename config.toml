@@ -18,10 +18,6 @@ disqusShortname = "chrisfrome"
     weight = 1
     url = "/projects"
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
-
 [params]
   GithubID = "cfrome77"
   TwitterID = "cfrome77"

@@ -1,5 +1,5 @@
 baseurl = "http://chrisfrome.com/"
-title = "Chris Frome - Website"
+title = "Chris Frome"
 theme = "nix"
 languageCode = "en-us"
 disqusShortname = "chrisfrome"

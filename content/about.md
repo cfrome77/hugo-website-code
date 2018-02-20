@@ -2,6 +2,7 @@
 title = "About"
 date = "2018-02-04"
 menu = "main"
+comments = "false"
 +++
 
 About Me

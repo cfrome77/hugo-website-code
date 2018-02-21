@@ -9,7 +9,7 @@ categories = [
     "projects",
 ]
 menu = "main"
-disableComments = true
+nocomments = true
 +++
 
 <i class="fa fa-github"></i> [Project 1](http://github.com/cfrome77/hugo-website-code) - Hugo code for my website

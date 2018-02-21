@@ -2,7 +2,7 @@
 title = "About"
 date = "2018-02-04"
 menu = "main"
-disableComments = true
+nocomments = true
 +++
 
 About Me

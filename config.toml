@@ -7,15 +7,21 @@ disqusShortname = "chrisfrome"
 [menu]
   [[menu.header]]
     name = "post"
+    identifier = "posts"
     weight = 0
     url = "/post"
+  [[menu.main]]
+    Name = "all tags"
+    parent = "posts"
+    URL = "/tags"
+    Weight = 0
   [[menu.header]]
     name = "about"
     weight = 1
     url = "/about"
   [[menu.header]]
     name = "projects"
-    weight = 1
+    weight = 2
     url = "/projects"
 
 [params]
@@ -29,4 +35,4 @@ disqusShortname = "chrisfrome"
   Email = "chris@chrisfrome.com"
   About = "Hi I am Chris Frome. I am a software engineer from the DC metropolitan area. In my free time, I enjoy cooking, rock climbing, and camping/the outdoors."
   ProfilePicture = "/profile.jpg"
-
+  GoogleAnalytics = "UA-114432266-1"

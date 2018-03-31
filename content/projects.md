@@ -15,3 +15,7 @@ nocomments = true
 <i class="fa fa-github"></i> [Project 1](http://github.com/cfrome77/hugo-website-code) - Hugo code for my website
 <br />
 <i class="fa fa-github"></i> [Project 2](http://github.com/cfrome77/cfrome77.github.io) - Website html code
+<br />
+<i class="fa fa-github"></i> [Project 3](http://github.com/cfrome77/BinConvert) - Java Binary Converter
+
+

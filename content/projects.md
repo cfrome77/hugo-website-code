@@ -25,7 +25,7 @@ nocomments = true
 <p>This is the code used for my final class assignment for CS 480 at JMU. It contains contains a design manifesto, 
    as well as showcases my work from the class</p>
 <hr />
-<i class="fa fa-github fa-lg"></i> [CS 480 Portfolio Website](http://chrisfrome.com/CS480-Portfolio)
+<i class="fa fa-link fa-lg"></i> [CS 480 Portfolio Website](http://chrisfrome.com/CS480-Portfolio)
 <p>This is the link to the actual webpage of the Portfolio, hosted using Github pages. It contains contains a design manifesto, 
    as well as showcases my work from the class</p>
 

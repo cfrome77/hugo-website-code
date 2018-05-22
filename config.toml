@@ -1,4 +1,4 @@
-baseurl = "https://chrisfrome.com/"
+baseurl = "https://www.chrisfrome.com/"
 title = "Chris Frome"
 theme = "nix"
 languageCode = "en-us"

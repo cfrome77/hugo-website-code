@@ -19,10 +19,9 @@ disqusShortname = "chrisfrome"
     url = "/projects"
 
 [params]
-  GithubID = "cfrome77"
   TwitterID = "cfrome77"
   LinkedInID = "cfrome77"
-  FacebookID = "cfrome77"
+  GithubID = "cfrome77"
   Name = "Chris Frome"
   HeaderUsername = "Chris"
   HeaderHostname = "chrisfrome.com"

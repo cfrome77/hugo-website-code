@@ -1,6 +1,6 @@
 +++
 title = "Laravel"
-description = "Portfolion for CS480 - Designing Interactive Systems"
+description = "Laravel presentation written for a JMU Unix Users Group lightning talk"
 tags = [
     "laravel"
 ]

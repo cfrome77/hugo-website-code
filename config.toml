@@ -6,9 +6,23 @@ disqusShortname = "chrisfrome"
 
 [menu]
   [[menu.header]]
-    name = "post"
+    identifier = "post"
+    name = "posts"
     weight = 0
     url = "/post"
+  [[menu.header]]
+    parent = "post"
+    name = "All Posts"
+    weight = 0
+    url = "/post"
+  [[menu.header]]
+    parent = "post"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "post"
+    name = "tags"
+    url = "/tags"
   [[menu.header]]
     name = "about"
     weight = 1

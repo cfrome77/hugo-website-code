@@ -13,7 +13,6 @@ disqusShortname = "chrisfrome"
   [[menu.header]]
     parent = "post"
     name = "All Posts"
-    weight = 0
     url = "/post"
   [[menu.header]]
     parent = "post"

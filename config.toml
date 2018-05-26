@@ -12,7 +12,7 @@ disqusShortname = "chrisfrome"
     url = "/post"
   [[menu.header]]
     parent = "post"
-    name = "All Posts"
+    name = "Posts"
     url = "/post"
   [[menu.header]]
     parent = "post"

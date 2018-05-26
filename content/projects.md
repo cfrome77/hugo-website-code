@@ -1,13 +1,7 @@
 +++
 title = "Projects"
 description = ""
-tags = [
-    "projects",
-]
 date = "2018-02-18"
-categories = [
-    "projects",
-]
 menu = "main"
 nocomments = true
 +++

@@ -37,7 +37,7 @@ Here is a video on cooking with cast iron from Tasty : [Cooking with cast iron](
 5. Check the food
    - To check food and temp, lift the lid occasionally by sliding tongs through the pot lid's ring and bracing them against the edge of the lid closest to you.
 6. Tweak the temperature
-   - To decrease heat, scrape away some fuel. To increase heat, or to cook longer than 45 minutes, add 5 to 6 new briquets to both the top and the bottom of the dutch oven (touching lit ones, so they’ll ignite) about every 30 minutes, or add wood embers. If briquets don't light, be ready to ignite them in the chimney.However, there are some debates on whether to use soap on cast iron, but many say that a little soap wont hurt the pan. 
+   - To decrease heat, scrape away some fuel. To increase heat, or to cook longer than 45 minutes, add 5 to 6 new briquets to both the top and the bottom of the dutch oven (touching lit ones, so they’ll ignite) about every 30 minutes, or add wood embers. If briquets don't light, be ready to ignite them in the chimney. However, there are some debates on whether to use soap on cast iron, but many say that a little soap wont hurt the pan. 
 
 ## Indoor Cooking with Dutch Ovens
 
@@ -48,6 +48,12 @@ Here is a video on cooking with cast iron from Tasty : [Cooking with cast iron](
 	- Dutch ovens have been successfully prepared in gas and electric ovens, conventional and convection ovens, buried in campfires coals, inside barbecue grills, in roasters, and even on stovetop burners. 
 	- The only type of oven I know that you should NOT use with a cast iron Dutch oven is a microwave oven.
 	- An oven can work just as well as coals, and the temperature can easier to control. Just make sure your oven can reach 450 degrees fahrenheit.
+
+## Personal Experience
+
+The majority of my dutch oven cooking experience occurred while on campouts with the Boy Scouts. I have learned to cook everything from breakfast casserole, biscuits, pizza, and dessert cakes and cobblers. 
+Dessert cooking is one of my favorite, and I even learned a hack when making a cake. Instead of adding everything listed on the box to the cake mix, all you need is a bottle of sprite or other soda. 
+This will work as a replacement for the ingredients like eggs and water and allow you to have a moist and delicious cake.
 
 ## Cleaning Cast Iron
 

@@ -52,7 +52,7 @@ Here is a video on cooking with cast iron from Tasty : [Cooking with cast iron](
 ## Personal Experience
 
 The majority of my dutch oven cooking experience occurred while on campouts with the Boy Scouts. I have learned to cook everything from breakfast casserole, biscuits, pizza, and dessert cakes and cobblers. 
-Dessert cooking is one of my favorite, and I even learned a hack when making a cake. Instead of adding everything listed on the box to the cake mix, all you need is a bottle of sprite or other soda. 
+Dessert cooking is one of my favorites, and I even learned a hack when making a cake. Instead of adding everything listed on the box to the cake mix, all you need is a bottle of sprite or other soda. 
 This will work as a replacement for the ingredients like eggs and water and allow you to have a moist and delicious cake.
 
 ## Cleaning Cast Iron

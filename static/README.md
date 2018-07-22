@@ -1,6 +1,6 @@
 # Chrisfrome.com
 
-This repository contains the hugo gode used to generate chrisfrome.com hostedon github pages
+This repository contains the hugo code used to generate chrisfrome.com hosted on github pages
 
 ## Getting Started
 

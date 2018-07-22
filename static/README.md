@@ -10,14 +10,10 @@ This repository contains the hugo gode used to generate chrisfrome.com hostedon 
 
 ## Soures and Credits
 
-I've used the hugo nix theme from lord mathis.
+I've used the hugo nix theme from LordMathis. You can find it [here](https://github.com/LordMathis/hugo-theme-nix).
 
 
 ## Authors
 
 * **Chris Frome** - [linkedin.com/in/cfrome77](https://linkedin.com/in/cfrome77)
 
-
-## Acknowledgments
-
-* Some code is inspired by [CEEVEE by Styleshout](http://www.styleshout.com/free-templates/ceevee/). CEEVEE is licensed under the Creative Commons 3.0 Unported [![License: CC BY 3.0](https://img.shields.io/badge/License-CC%20BY%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by/3.0/)

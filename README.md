@@ -8,6 +8,7 @@ This repository contains the Hugo code used to genearte my website [chrisfrome.c
 2. install [hugo](https://gohugo.io/getting-started/installing/)
 3. run ``hugo`` to build site to the public folder
 4. run ``hugo server`` or ``hugo server -t "theme"`` to view changes locally at ``localhost:1313``
+5. use [`deploy.sh`](deploy.sh) to push code from public folder to github pages folder at [https://github.com/cfrome77/cfrome77.github.io](https://github.com/cfrome77/cfrome77.github.io)
 
 ## Sources and Credits
 

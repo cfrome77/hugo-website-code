@@ -3,6 +3,7 @@ title = "Chris Frome"
 theme = "nix"
 languageCode = "en-us"
 disqusShortname = "chrisfrome"
+disablePathToLower = true
 
 [menu]
   [[menu.header]]
@@ -26,6 +27,10 @@ disqusShortname = "chrisfrome"
     name = "about"
     weight = 1
     url = "/about"
+  [[menu.header]]
+    name = "resume"
+    weight = 1
+    url = "/ChristopherAFromeResume2018.pdf"
   [[menu.header]]
     name = "projects"
     weight = 2

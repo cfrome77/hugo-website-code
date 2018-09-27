@@ -31,7 +31,7 @@ nocomments = true
 <br />
 <h1>Other Projects</h1>
 <i class="fa fa-github fa-lg"></i> [JMU CS VM COnfiguration Tool](http://github.com/jmunixusers/cs-vm-build)
-<p>I have contributed to this project maintained by the JMU Unix Users Group. This project is a VM configuration tool for the JMU CS Department virtual machine. Its helps to cut down on distribution size, and gives te ability to install software base on the classes you are enrolled. The project makes use of Ansible, and assigns each class a role.</p>
+<p>I have contributed to this project maintained by the JMU Unix Users Group. This project is a VM configuration tool for the JMU CS department virtual machine. It helps to cut down on distribution size, and gives students the ability to install software base on the classes you are enrolled using a GUI application. The project makes use of Ansible, and assigns each class a role.</p>
 
 
 

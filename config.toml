@@ -28,10 +28,6 @@ disablePathToLower = true
     weight = 1
     url = "/about"
   [[menu.header]]
-    name = "resume"
-    weight = 1
-    url = "/ChristopherAFromeResume2018.pdf"
-  [[menu.header]]
     name = "projects"
     weight = 2
     url = "/projects"

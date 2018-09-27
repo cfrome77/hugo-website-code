@@ -6,6 +6,8 @@ menu = "main"
 nocomments = true
 +++
 
+<h1>Personal Projects</h1>
+<br />
 <i class="fa fa-github fa-lg"></i> [Hugo Website Code](http://github.com/cfrome77/hugo-website-code)
 <p>This is the github repository that host the hugo code that my wesite is built from</p>
 <hr />
@@ -22,6 +24,14 @@ nocomments = true
 <i class="fa fa-link fa-lg"></i> [CS 480 Portfolio Website](http://chrisfrome.com/CS480-Portfolio)
 <p>This is the link to the actual webpage of the Portfolio, hosted using Github pages. It contains contains a design manifesto, 
    as well as showcases my work from the class</p>
+<hr />
+<i class="fa fa-github fa-lg"></i> [Liquid Stats](http://github.com/cfrome77/liquid-stats)
+<p>This projects leverages the power of the Untappd API to display information for your account including what beers you have had, your top rated beers, badges you earned, and statics about your untappd checkins</p>
+
+<br />
+<h1>Other Projects</h1>
+<i class="fa fa-github fa-lg"></i> [JMU CS VM COnfiguration Tool](http://github.com/jmunixusers/cs-vm-build)
+<p>I have cntributed to this project maintained by the JMU Unix Users Group. This project is a VM configuration tool for the JMU CS Department virtual machine. Its helps to cut down on distribution size, and gives te ability to install software base on the classes you are enrolled. The project makes use of Ansible, and assigns each class a role.</p>
 
 
 

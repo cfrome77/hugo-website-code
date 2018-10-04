@@ -29,9 +29,15 @@ nocomments = true
 <p>This projects leverages the power of the Untappd API to display information for your account including what beers you have had, your top rated beers, badges you earned, and statics about your untappd checkins</p>
 
 <br />
+
 <h1>Other Projects</h1>
+<br />
 <i class="fa fa-github fa-lg"></i> [JMU CS VM COnfiguration Tool](http://github.com/jmunixusers/cs-vm-build)
 <p>I have contributed to this project maintained by the JMU Unix Users Group. This project is a VM configuration tool for the JMU CS department virtual machine. It helps to cut down on distribution size, and gives students the ability to install software base on the classes they are enrolled in, through a Python GUI application. The project makes use of Ansible, and assigns each class a role.</p>
+<hr />
+<i class="fa fa-github fa-lg"></i> [Hugo Nix Theme](https://github.com/LordMathis/hugo-theme-nix/)
+<p>I have contributed to this project created Matus Namesny (LordMathis). This project is a theme for the Hugo static website generator. I contributed to the project by adding dropdown functionality for the navigation menu.
+You can view my pull request [here](https://github.com/LordMathis/hugo-theme-nix/pull/41).</p>
 
 
 

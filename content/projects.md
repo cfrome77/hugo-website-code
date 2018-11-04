@@ -40,7 +40,7 @@ nocomments = true
 You can view my pull request [here](https://github.com/LordMathis/hugo-theme-nix/pull/41).</p>
 <hr />
 <i class="fa fa-link fa-lg"></i> [Jordan Environmental Website](https://jordanenvironmental.net)
-<p>This project is a website for the Waynesville, NC based company Jordan Environmental, LLC.
+<p>This project is a website for the Waynesville, NC based company Jordan Environmental, LLC.</p>
 
 
 

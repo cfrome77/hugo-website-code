@@ -38,6 +38,9 @@ nocomments = true
 <i class="fa fa-github fa-lg"></i> [Hugo Nix Theme](https://github.com/LordMathis/hugo-theme-nix/)
 <p>I have contributed to this project created Matus Namesny (LordMathis). This project is a theme for the Hugo static website generator. I contributed to the project by adding dropdown functionality for the navigation menu.
 You can view my pull request [here](https://github.com/LordMathis/hugo-theme-nix/pull/41).</p>
+<hr />
+<i class="fa fa-link fa-lg"></i> [Jordan Environmental Website](https://jordanenvironmental.net)
+<p>I This project is a website for the Waynesville, NC based company Jordan Environmental, LLC.
 
 
 

@@ -1,6 +1,6 @@
 [submodule "themes/nix"]
 	path = themes/nix
-	url = git@github.com:LordMathis/hugo-theme-nix.git
+	url = https://github.com/LordMathis/hugo-theme-nix
 [submodule "public"]
 	path = public
 	url = https://github.com/cfrome77/cfrome77.github.io

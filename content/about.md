@@ -8,17 +8,17 @@ nocomments = true
 About Me
 --------
 
-My name is Chris. I'm a recent alumnus of James Madison University (May 2018) where I majored in Computer Science and minored in Environmental Information Systems. 
-My interests within Computer Science include: software engineering/DevOps, full stack web development, and security. 
-I first learned about programming starting in high school, and am excited to start a new career as a Software Engineer.
-Aside from programming and computer science I enjoy cooking, rock climbing, and camping/the outdoors. 
+My name is Chris. I'm currently a DevOps engineer in the Baltimore, MD area. I graduated with from James Madison University where I majored in Computer Science and minored in Environmental Information Systems. 
+My interests within Computer Science include: software engineering, DevOps, and full stack web development. 
+I first learned about programming starting in high school, and am now working as a DevOps engineer using Amazon Web Services (AWS) for cloud development.
+Aside from programming and computer science I enjoy cooking, rock climbing (indoor/outdoor), and camping/the outdoors. 
 
 Contact Details
 ---------------
 
 Chris Frome
 <br />
-Software Engineer
+DevOps Engineer
 <br />
 Mount Airy, Maryland
 <br />

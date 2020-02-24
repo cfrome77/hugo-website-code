@@ -56,7 +56,7 @@ categories = [
 
 * Client-server model
     * Master (server)
-    * Minions (clients)
+    * Minion (client)
 
 * Uses the asynchronous message library ZeroMQ for message queuing
 

@@ -60,7 +60,7 @@ categories = [
 
 * Uses the asynchronous message library ZeroMQ for message queuing
 
-* Commonication encrypted over SSH
+* Communication encrypted over SSH
 
 ![Salt Architecture](/images/saltstack/architecture.png)
 
@@ -117,8 +117,22 @@ nginx_service:
 # Top File
 
 * There are two top files that exist
-    1. The states top file Maps the machines and the states that should be applied to them
+    1. The states top file maps the machines and the states that should be applied to them
     2. The pillars top file maps the machines and the pillar data that they can access
+
+```yaml
+base:
+    # Applied to all servers
+    '*':
+        - universal_setp
+    # Applied only to ubuntu servers
+    'os:Ubuntu':
+        - match: grain
+        - ubuntu_setup
+    # Applied only to web-server
+    web-server:
+        - apache_setup
+```
 
 ---
 
@@ -138,7 +152,7 @@ salt -N windows_minions test.ping
 
 ```yaml
 nodegroups:
-    windows_minions 'G@os_familywindows'
+    windows_minions 'G@os_family:windows'
 ```
 
 ---

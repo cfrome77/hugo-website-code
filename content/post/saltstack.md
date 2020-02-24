@@ -10,8 +10,7 @@ categories = [
 ]
 +++
 
-# ![SaltStack](/images/saltstack/salt_logo.png
-)
+# ![SaltStack](/images/saltstack/salt_logo.png)
 
 ---
 

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> SaltStack &middot; Chris Frome </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.92.0" />
+
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://www.chrisfrome.com/css/nix.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto|Montserrat|Concert+One" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="https://www.chrisfrome.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.chrisfrome.com/favicon.ico" type="image/x-icon">
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-114432266-1', 'auto');
+	  ga('send', 'pageview');
+
+</script>
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://www.chrisfrome.com/>Chris@chrisfrome.com ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+		    <ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://www.chrisfrome.com/">/home/Chris</a>
+				</li>
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="/about">~/about</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+            		<a href="/projects">~/projects</a>
+            		
+        		</li>
+        		
+				
+				<li class="dropdown">
+                    
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">posts <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        
+                    		<li>
+                    		<a href="/categories">~/categories</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="/post">~/posts</a>
+				    		</li>
+                		
+                    		<li>
+                    		<a href="/tags">~/tags</a>
+				    		</li>
+                		
+            		</ul>
+            		
+        		</li>
+        		
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+        <div class="container wrapper">
+            <h1><a href="https://www.chrisfrome.com/post/saltstack/">SaltStack</a></h1>
+            <span class="post-date">Feb 20, 2020 </span>
+            <div class="post-content">
+                <!-- raw HTML omitted -->
+<hr>
+<h1 id="what-is-configuration-mangement">What is Configuration mangement?</h1>
+<ul>
+<li>Configuration mangement is the practace of centrally managing and configuring systems from a centralized control point. Configuration management tools are used for remote configuration of systems (Windows or Linux) in an environment.</li>
+</ul>
+<hr>
+<h1 id="configration-management-tools">Configration Management tools</h1>
+<ul>
+<li>
+<p>Ansible</p>
+</li>
+<li>
+<p>Puppet</p>
+</li>
+<li>
+<p>Chef</p>
+</li>
+<li>
+<p>SaltStack</p>
+</li>
+</ul>
+<hr>
+<h1 id="about-salt">About Salt</h1>
+<ul>
+<li>
+<p>Started in 2011 by Thomas Hatch</p>
+</li>
+<li>
+<p>Python based, and open source</p>
+</li>
+<li>
+<p>Uses the YAML data structure along with JINJA templating</p>
+</li>
+<li>
+<p>It has a large open source community</p>
+</li>
+<li>
+<p>It uses a client-server model, allowing for remote command execution</p>
+</li>
+<li>
+<p>Easily scalable, supporting thousands of nodes</p>
+</li>
+<li>
+<p>Uses message queue networking</p>
+</li>
+<li>
+<p>Highly modular</p>
+</li>
+</ul>
+<hr>
+<h1 id="architecture">Architecture</h1>
+<ul>
+<li>
+<p>Client-server model</p>
+<ul>
+<li>Master (server)</li>
+<li>Minion (client)</li>
+</ul>
+</li>
+<li>
+<p>Uses the asynchronous message library ZeroMQ for message queuing</p>
+</li>
+<li>
+<p>Communication encrypted over SSH</p>
+</li>
+</ul>
+<p><img src="/images/saltstack/architecture.png" alt="Salt Architecture"></p>
+<hr>
+<h1 id="pillars-and-grains">Pillars and Grains</h1>
+<ul>
+<li>
+<p>Pillars</p>
+<ul>
+<li>User defined variables that are ctored on the minion
+<ul>
+<li>Also able to be stored on a git server</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Grains</p>
+<ul>
+<li>Static information, such as OS version, about a device (minion)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="execution-modules">Execution Modules</h1>
+<ul>
+<li>Add hoc commands on the command line targeting one or more minions</li>
+</ul>
+<p><img src="/images/saltstack/executionModules.png" alt="Salt Execution Modules"></p>
+<hr>
+<h1 id="states">States</h1>
+<ul>
+<li>
+<p>Each salt state is contained in an Salt State File (SLS)</p>
+</li>
+<li>
+<p>Each state file represents a configuration state that a system should have</p>
+</li>
+<li>
+<p>These state files are written in YAML, and can also contain JINJA templates</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">network_utilities</span>:
+  <span style="color:#f92672">pkg.installed</span>:
+    - <span style="color:#f92672">pkgs</span>:
+      - <span style="color:#ae81ff">rsync</span>
+      - <span style="color:#ae81ff">curl</span>
+
+<span style="color:#f92672">nginx_pkg</span>:
+  <span style="color:#f92672">pkg.installed</span>:
+    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">nginx</span>
+
+<span style="color:#f92672">nginx_service</span>:
+  <span style="color:#f92672">service.running</span>:
+    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">nginx</span>
+    - <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">True</span>
+    - <span style="color:#f92672">require</span>:
+      - <span style="color:#f92672">pkg</span>: <span style="color:#ae81ff">nginx_pkg</span>
+</code></pre></div><hr>
+<h1 id="top-file">Top File</h1>
+<ul>
+<li>There are two top files that exist
+<ol>
+<li>The states top file maps the machines and the states that should be applied to them</li>
+<li>The pillars top file maps the machines and the pillar data that they can access</li>
+</ol>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">base</span>:
+    <span style="color:#75715e"># Applied to all servers</span>
+    <span style="color:#f92672">&#39;*&#39;</span>:
+        - <span style="color:#ae81ff">universal_setp</span>
+    <span style="color:#75715e"># Applied only to ubuntu servers</span>
+    <span style="color:#f92672">&#39;os:Ubuntu&#39;</span>:
+        - <span style="color:#f92672">match</span>: <span style="color:#ae81ff">grain</span>
+        - <span style="color:#ae81ff">ubuntu_setup</span>
+    <span style="color:#75715e"># Applied only to web-server</span>
+    <span style="color:#f92672">web-server</span>:
+        - <span style="color:#ae81ff">apache_setup</span>
+</code></pre></div><hr>
+<h1 id="targeting-minions">Targeting Minions</h1>
+<ul>
+<li>We can target minions using a list, regex, grains, or node groups</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">salt minion1 test.ping
+salt <span style="color:#e6db74">&#34;minion*&#34;</span> test.ping
+salt -L <span style="color:#e6db74">&#34;minion1, minion2&#34;</span> test.ping
+Salt -G <span style="color:#e6db74">&#39;os_family:windows&#39;</span> test.ping
+salt -N windows_minions test.ping
+</code></pre></div><ul>
+<li>node groups, configured in master configuration (/etc/salt/master)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">nodegroups</span>:
+    <span style="color:#ae81ff">windows_minions &#39;G@os_family:windows&#39;</span>
+</code></pre></div><hr>
+<h1 id="event-system">Event System</h1>
+<ul>
+<li>
+<p>uses publisher/subscribe model for publishing events</p>
+</li>
+<li>
+<p>Events are published onto the event bus and event bus subscribers listen for the published events.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Watch the event bus forever in a shell while-loop.</span>
+salt-run state.event | <span style="color:#66d9ef">while</span> read -r tag data; <span style="color:#66d9ef">do</span>
+    echo $tag
+    echo $data | jq --color-output .
+<span style="color:#66d9ef">done</span>
+</code></pre></div><h1 id="reactor">Reactor</h1>
+<ul>
+<li>Allows for taking actions related to events by watching the event bus for event tags that match a given pattern and then running one or more commands in response</li>
+</ul>
+<h1 id="installation-and-configuration">Installation and Configuration</h1>
+<h2 id="installation-ubuntu-example">Installation (Ubuntu example)</h2>
+<pre><code>1. Install the SaltStack repo and key: ```wget -O - https://repo.saltstack.com/apt/ubuntu/18.04/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -``
+2. save ```/etc/apt/sources.list.d/saltstack.list``` to ```deb http://repo.saltstack.com/apt/ubuntu/18.04/amd64/latest bionic main```
+3. Install the needed Salt components using apt-get
+    1. salt-master, salt-minion, salt-ssh, salt-api
+</code></pre>
+<ul>
+<li>Once insalled all Salt components are controlled through systemd unit files</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<ul>
+<li>
+<p>salt master: /etc/salt/master</p>
+</li>
+<li>
+<p>Minion: /etc/salt/minion</p>
+</li>
+</ul>
+
+            </div>
+            
+            <div class="post-comments">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chrisfrome" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2022 Chris Frome -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>

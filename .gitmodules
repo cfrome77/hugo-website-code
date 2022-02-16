@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:cfrome77/cfrome77.github.io.git
 	branch = master
+[submodule "themes/hugo-theme-nix"]
+	path = themes/hugo-theme-nix
+	url = https://github.com/LordMathis/hugo-theme-nix

@@ -10,8 +10,8 @@ About Me
 
 My name is Chris Frome. I'm currently a DevOps engineer in the Baltimore, MD area. I graduated with from James Madison University where I majored in Computer Science and minored in Environmental Information Systems. 
 My interests within Computer Science include: software engineering, DevOps, and full stack web development. 
-I first learned about programming starting in high school, and am now working as a DevOps engineer using Amazon Web Services (AWS) for cloud development.
-Aside from programming and computer science I enjoy cooking, rock climbing (indoor/outdoor), and camping/the outdoors. 
+I first learned about programming starting in high school, and am now working as a web and software developer.
+Aside from programming and computer science I enjoy community service, cooking, hiking, tabeltop RPG's, trivai, and camping/the outdoors. 
 
 Contact Details
 ---------------

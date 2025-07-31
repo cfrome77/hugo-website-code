@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:cfrome77/cfrome77.github.io.git
+[submodule "themes/blowfish"]
+	path = themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git

@@ -1,0 +1,152 @@
+/* ===========================
+   Global Styles
+=========================== */
+:root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  scrollbar-width: thin;
+  scrollbar-color: darkgrey;
+  scrollbar-gutter: solid;
+}
+
+body,
+.blowfish_content h1,
+.blowfish_content p {
+  font-family: 'Inter', sans-serif;
+}
+
+.blowfish_section .blowfish_content {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.blowfish_section .blowfish_content header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===========================
+   Card Styles
+=========================== */
+.blowfish_card {
+  background-color: var(--blowfish-card-background);
+  border: 1px solid var(--blowfish-card-border);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Remove hover movement if desired */
+.blowfish_card:hover {
+  transform: none; /* No lift */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* ===========================
+   Card Image Styles
+=========================== */
+.blowfish_card_image {
+  position: relative;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.blowfish_card_image_img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Project title (top-left) */
+.image_title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* ===========================
+   Overlay Icons (Top-Right)
+=========================== */
+.image_overlays {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.link-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease-in-out;
+}
+
+.link-overlay:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.link-overlay svg {
+  fill: white !important;
+  width: 20px;
+  height: 20px;
+}
+
+/* ===========================
+   Card Content
+=========================== */
+.blowfish_card_content {
+  padding: 1.5rem;
+  border-top: 1px solid var(--blowfish-card-border);
+}
+
+.blowfish_card_content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* ===========================
+   Project Type Label (Bottom-Left)
+=========================== */
+.project_type_label.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  z-index: 10;
+}
+
+/* ===========================
+   Tables & Full Width
+=========================== */
+td {
+  vertical-align: middle !important;
+  padding: 1rem 1rem !important;
+}
+
+.w-full {
+  width: 100%;
+}

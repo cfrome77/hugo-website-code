@@ -1,0 +1,68 @@
+{{ define "main" }}
+<div class="blowfish_section">
+    <div class="blowfish_content">
+        <header>
+            <h1 class="font-bold">{{ .Title }}</h1>
+            {{ with .Description }}
+            <p class="blowfish_description">{{ . | markdownify }}</p>
+            {{ end }}
+        </header>
+    </div>
+</div>
+
+<div class="blowfish_section">
+    <div class="blowfish_content blowfish_posts">
+        <div class="blowfish_cards blowfish_projects">
+            {{ range .Pages }}
+            <div class="blowfish_card blowfish_card_project">
+
+                {{ if .Params.images }}
+                {{ $image := index .Params.images 0 }}
+                <div class="blowfish_card_image relative">
+                    <img src="{{ $image }}" alt="{{ .Title }}" class="blowfish_card_image_img nozoom">
+
+                    <!-- Title (top-left) -->
+                    {{ with .Title }}
+                    <span class="image_title">{{ . }}</span>
+                    {{ end }}
+
+                    <!-- Personal/Contribution label (bottom-left) -->
+                    {{ with .Params.type }}
+                    <span class="project_type_label bottom-right">
+                        {{ if eq . "personal" }}
+                        Personal Project
+                        {{ else if eq . "contribution" }}
+                        Contribution
+                        {{ else }}
+                        {{ . | title }}
+                        {{ end }}
+                    </span>
+                    {{ end }}
+
+                    <!-- Overlay all links (top-right) -->
+                    {{ with .Params.links }}
+                    <div class="image_overlays">
+                        {{ range . }}
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="link-overlay"
+                            title="{{ .title }}">
+                            {{ partial "icon.html" .icon }}
+                        </a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                <!-- Card content below image -->
+                <div class="blowfish_card_content">
+                    {{ with .Description }}
+                    <p>{{ . | markdownify }}</p>
+                    {{ end }}
+                </div>
+
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

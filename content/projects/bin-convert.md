@@ -1,8 +1,7 @@
 ---
 title: "Binary Converter GUI"
 description: "The code for a binary number converter with both text and GUI based options"
-images:
-  - "/img/projects/binary.png"
+image: "/img/projects/binary.png"
 links:
   - title: "Binary Converter GUI"
     icon: github

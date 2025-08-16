@@ -16,9 +16,13 @@
             {{ range .Pages }}
             <div class="blowfish_card blowfish_card_project">
 
-                {{ if .Params.images }}
-                {{ $image := index .Params.images 0 }}
                 <div class="blowfish_card_image relative">
+                    {{ $image := "/img/projects/default-card.jpg" }}
+                    {{ with .Params.image }}
+                        {{ if ne . "" }}
+                            {{ $image = . }}
+                        {{ end }}
+                    {{ end }}
                     <img src="{{ $image }}" alt="{{ .Title }}" class="blowfish_card_image_img nozoom">
 
                     <!-- Title (top-left) -->
@@ -26,7 +30,7 @@
                     <span class="image_title">{{ . }}</span>
                     {{ end }}
 
-                    <!-- Personal/Contribution label (bottom-left) -->
+                    <!-- Personal/Contribution label (bottom-right) -->
                     {{ with .Params.type }}
                     <span class="project_type_label bottom-right">
                         {{ if eq . "personal" }}
@@ -51,7 +55,6 @@
                     </div>
                     {{ end }}
                 </div>
-                {{ end }}
 
                 <!-- Card content below image -->
                 <div class="blowfish_card_content">

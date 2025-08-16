@@ -1,8 +1,7 @@
 ---
 title: "Hugo Nix Theme"
 description: "The code for a binary number converter with both text and GUI based options"
-images:
-  - "/img/projects/hugo-nix.png"
+image: "/img/projects/hugo-nix.png"
 links:
   - title: "Hugo Nix Theme"
     icon: github

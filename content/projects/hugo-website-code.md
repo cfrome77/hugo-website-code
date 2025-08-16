@@ -1,8 +1,7 @@
 ---
 title: "Hugo Website Code"
 description: "The code for my personal website."
-images:
-  - "/img/projects/hugo.jpeg"
+image: "/img/projects/hugo.jpeg"
 links:
   - title: hugo website code
     icon: github

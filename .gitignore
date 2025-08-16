@@ -35,3 +35,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Lock
+.hugo_build.lock
+resources/_gen/

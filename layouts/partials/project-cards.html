@@ -1,0 +1,14 @@
+{{- range .Site.Data.projects }}
+<div class="blowfish_card blowfish_card_project">
+  <div class="blowfish_card_image">
+    <img src="{{ .image }}" alt="{{ .title }}" class="blowfish_card_image_img nozoom">
+  </div>
+  <div class="blowfish_card_content">
+    <h2>{{ .title }}</h2>
+    <p>{{ .description }}</p>
+    <div class="blowfish_card_links">
+      <a href="{{ .link.url }}" target="_blank" rel="noopener noreferrer">{{ .link.title }}</a>
+    </div>
+  </div>
+</div>
+{{- end }}

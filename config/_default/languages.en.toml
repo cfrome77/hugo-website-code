@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Chris Frome"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/ChrisFromeLogo-transparent.png"
+  description = "Personal Blog & Portfolio"
+  disableTextInHeader = true
+  logoHeight = "80px"
+
+[params.author]
+name = "Chris Frome"
+email = "chris@chrisfrome.com"
+image = "img/profile.jpg"
+imageQuality = 96
+headline = "Web and Software Developer"
+bio = "Web and Software Developer"
+links = [
+  { email = "mailto:chris@chrisfrome.com" },
+  { github = "https://github.com/cfrome77" },
+  { instagram = "https://instagram.com/cfrome77" },
+  { linkedin = "https://linkedin.com/in/cfrome77" },
+]

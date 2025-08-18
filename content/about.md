@@ -14,21 +14,44 @@ showPagination: false
 showAuthor: true
 ---
 
-About Me
---------
+# About Me
 
-My name is Chris Frome. I'm currently a web and software debeloper in the Baltimore, MD area. I graduated with from James Madison University where I majored in Computer Science and minored in Environmental Information Systems. I completed a Master degtee from UMBC in information stems as well.
-My interests within Computer Science include: software engineering, DevOps, and full stack web development. 
-I first learned about programming starting in high school, and am now working as a web and software developer.
-Aside from programming and computer science I enjoy community service, cooking, hiking, tabeltop RPG's, trivia, and camping/the outdoors. 
+I’m **Chris Frome**, a Web and Software Developer based in the Baltimore, MD area. I specialize in building modern, scalable applications and bringing ideas to life through clean, user-focused design and engineering.  
 
-Contact Details
----------------
+---
 
-Chris Frome
-<br />
-Web & Software Developer
-<br />
-Frederick, Maryland
-<br />
-[chris@chrisfrome.com](mailto:chris@chrisfrome.com)
+## Education
+
+- **M.S. in Information Systems**, University of Maryland, Baltimore County (UMBC)  
+  Concentrations: *User Experience (UX) Design* and *Cybersecurity*  
+- **B.S. in Computer Science**, James Madison University (JMU)  
+  Minor: *Environmental Information Systems*  
+
+---
+
+## Professional Interests
+
+- Full-Stack Web Development  
+- Software Engineering  
+- DevOps & Cloud Infrastructure  
+- User Experience (UX) Design  
+- Cybersecurity Awareness  
+
+---
+
+## Background
+
+I first discovered programming in high school and have been pursuing it ever since. Over the years, I’ve grown from experimenting with code into building full-scale applications in professional settings. Today, I work as a **web and software developer**, collaborating on projects that combine frontend polish, backend efficiency, and reliable infrastructure.  
+
+---
+
+## Beyond Work
+
+Outside of tech, I’m passionate about **community service, cooking, hiking, tabletop RPGs, trivia, and camping/outdoors**. These activities keep me grounded, creative, and connected with people.  
+
+---
+
+## Contact
+
+📍 Frederick, Maryland  
+📧 [chris@chrisfrome.com](mailto:chris@chrisfrome.com)  

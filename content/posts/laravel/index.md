@@ -17,6 +17,8 @@ categories: [
 ]
 ---
 
+<!--more-->
+
 # Laravel with Homestead : Web app Development and Management
 
 [PHP Docs](http://php.net/manual/en/)

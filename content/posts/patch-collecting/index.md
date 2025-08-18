@@ -17,6 +17,8 @@ categories: [
 ]
 ---
 
+<!--more-->
+
 # My Patch Collection
 
 ## Getting Started

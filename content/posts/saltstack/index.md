@@ -17,6 +17,8 @@ categories: [
 ]
 ---
 
+<!--more-->
+
 # What is Configuration mangement?
 
 * Configuration mangement is the practace of centrally managing and configuring systems from a centralized control point. Configuration management tools are used for remote configuration of systems (Windows or Linux) in an environment.

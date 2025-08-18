@@ -1,26 +1,27 @@
+# -- Site & Author Info --
+title = "Chris Frome"
 disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Chris Frome"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
-  rtl = false
-  dateFormat = "2 January 2006"
-  logo = "img/ChrisFromeLogo-transparent.png"
-  description = "Personal Blog & Portfolio"
-  disableTextInHeader = true
-  logoHeight = "80px"
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "img/ChrisFromeLogo-transparent.png"
+logoHeight = "80px"
+disableTextInHeader = false
+description = "Portfolio of Chris Frome – Full-Stack Developer showcasing projects, cloud infrastructure, and modern web applications."
 
 [params.author]
 name = "Chris Frome"
 email = "chris@chrisfrome.com"
 image = "img/profile.jpg"
 imageQuality = 96
-headline = "Web and Software Developer"
-bio = "Web and Software Developer"
+headline = "Full-Stack Engineer | AWS, Vue, React, Angular"
+bio = "Full-Stack Web and Software Developer with 6+ years of experience building scalable applications and cloud infrastructure. Skilled in AWS, Kubernetes, Docker, and modern JavaScript frameworks, turning complex problems into user-friendly solutions."
 links = [
   { email = "mailto:chris@chrisfrome.com" },
   { github = "https://github.com/cfrome77" },

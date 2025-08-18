@@ -42,6 +42,15 @@ ignoreLogs = ['warning-goldmark-raw-html']
   page = ["HTML"]
   term = ["HTML", "RSS"]
 
+[params.seo]
+  enableOpenGraph = true
+  enableTwitterCards = true
+  twitterUsername = "cfrome77"
+  canonicalURL = "https://www.chrisfrome.com/"
+
+[params]
+  defaultFeaturedImage = "/img/homepage-share.jpg"
+
 [related]
   threshold = 0
   toLower = false

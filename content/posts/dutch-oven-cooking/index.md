@@ -17,6 +17,8 @@ categories: [
 ]
 ---
 
+<!--more-->
+
 # Dutch Oven Cast Iron Cooking
 
 One of my favorite things to use for cooking is the dutch oven. I got my first introduction to using cast iron from being in the Boy Scouts. The dutch oven

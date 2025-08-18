@@ -2,30 +2,50 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project into an empty /public
-# -c wipes old contents except .git (the submodule repo)
-rm -rf public/*
+# Initialize and update the public submodule if needed
+if [ ! -d "public/.git" ]; then
+    echo "Initializing and updating public submodule..."
+    git submodule update --init --recursive
+else
+    echo "Updating public submodule..."
+    git submodule update --recursive
+fi
+
+# Go to public folder
+cd public || { echo "Failed to cd into public"; exit 1; }
+
+# Ensure we’re on the correct branch and discard any local changes
+git fetch origin
+git checkout master || git checkout -B master origin/master
+git reset --hard origin/master
+
+# Return to project root to build site
+cd .. || { echo "Failed to return to project root"; exit 1; }
+
+# Clean the public folder except .git
+echo "Cleaning public folder..."
+find public -mindepth 1 ! -name '.git' -exec rm -rf {} +
+
+# Build the Hugo site into public/
+echo "Building site with Hugo..."
 hugo
 
-# Go To Public folder
-cd public
-
-# Ensure we’re on the right branch
-git checkout master
+# Go back to public folder to commit changes
+cd public || { echo "Failed to cd into public"; exit 1; }
 
 # Stage all changes, including deletions
 git add -A
 
 # Commit changes
 msg="rebuilding site $(date)"
-if [ $# -eq 1 ]
-then 
+if [ $# -eq 1 ]; then 
   msg="$1"
 fi
 git commit -m "$msg" || echo "No changes to commit"
 
-# Push to website repo
-git push origin master
+# Push to GitHub
+git push origin master || echo "Push failed"
 
-# Come Back up to the Project Root
+# Return to project root
 cd ..
+echo -e "\033[0;32mDeployment complete!\033[0m"

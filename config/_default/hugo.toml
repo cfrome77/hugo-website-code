@@ -15,8 +15,6 @@ buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
-
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [pagination]
@@ -80,3 +78,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-K425XQJT21"

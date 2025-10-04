@@ -82,3 +82,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [services]
   [services.googleAnalytics]
     ID = "G-K425XQJT21"
+
+  [services.disqus]
+    shortname = "chrisfrome"

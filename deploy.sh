@@ -28,7 +28,7 @@ find public -mindepth 1 ! -name '.git' -exec rm -rf {} +
 
 # Build the Hugo site into public/
 echo "Building site with Hugo..."
-hugo
+hugo --environment production
 
 # Go back to public folder to commit changes
 cd public || { echo "Failed to cd into public"; exit 1; }

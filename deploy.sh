@@ -49,3 +49,8 @@ git push origin master || echo "Push failed"
 # Return to project root
 cd ..
 echo -e "\033[0;32mDeployment complete!\033[0m"
+
+# Update submodule reference
+git add public
+git commit -m "$msg (Submodule Reference Update)" || echo "No submodule reference change to commit"
+git push origin master

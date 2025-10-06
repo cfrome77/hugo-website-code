@@ -73,12 +73,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
         name = "date"
         weight = 10
 
-    [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
-
 [services]
   [services.googleAnalytics]
     ID = "G-K425XQJT21"

@@ -50,28 +50,24 @@ ignoreLogs = ['warning-goldmark-raw-html']
   defaultFeaturedImage = "/img/homepage-share.jpg"
 
 [related]
-  threshold = 0
+  # Set threshold high to require a strong topical match (tag or category)
+  threshold = 80 
   toLower = false
 
     [[related.indices]]
+        # Highest weight to ensure shared tags are prioritized
         name = "tags"
         weight = 100
 
     [[related.indices]]
+        # Highest weight to ensure shared categories are prioritized
         name = "categories"
         weight = 100
 
     [[related.indices]]
+        # Medium weight for linking sequential posts
         name = "series"
         weight = 50
-
-    [[related.indices]]
-        name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
-        weight = 10
 
 [services]
   [services.googleAnalytics]

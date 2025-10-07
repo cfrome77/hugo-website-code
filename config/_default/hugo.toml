@@ -51,8 +51,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [related]
   # Set threshold high to require a strong topical match (tag or category)
-  threshold = 80 
-  toLower = false
+  threshold = 50 
+  toLower = true
 
     [[related.indices]]
         # Highest weight to ensure shared tags are prioritized

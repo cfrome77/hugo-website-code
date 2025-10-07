@@ -104,7 +104,7 @@ class FarmController extends Controller{
 
 - You will need to make a choice of what provider you want, enter 2 for virtualbox:
 
-![provider](img/laravel/provider-choice.png)
+![provider](/img/laravel/provider-choice.png)
 
 - Next type into your terminal:
 
@@ -126,7 +126,7 @@ ssh-keygen -t rsa -C “your_email@example.com”
 
 - Open the homestead directory in your preferred text editor, change homestead.yaml to the following::
 
-![homestead.yaml](img/laravel/HomesteadYaml.png) 
+![homestead.yaml](/img/laravel/HomesteadYaml.png) 
 
 - In the terminal type:
 ```
@@ -178,7 +178,7 @@ function homestead() {
 ## Laravel File Structure
 
 
-![Application Structure](img/laravel/application-structure.png)
+![Application Structure](/img/laravel/application-structure.png)
 
 
 The important files created in the root are:

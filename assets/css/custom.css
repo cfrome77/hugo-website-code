@@ -2,7 +2,7 @@
    Global Styles
 =========================== */
 :root {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   scrollbar-width: thin;
   scrollbar-color: darkgrey;
@@ -12,7 +12,7 @@
 body,
 .blowfish_content h1,
 .blowfish_content p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .blowfish_section .blowfish_content {
@@ -34,7 +34,7 @@ body,
   border-radius: 0.5rem;
   margin-bottom: 2rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
 
@@ -42,7 +42,7 @@ body,
 .blowfish_card:hover {
   transform: none; /* No lift */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 /* ===========================
